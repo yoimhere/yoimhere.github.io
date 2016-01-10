@@ -4,14 +4,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yoimhere.github.io" # the base hostname & protocol for your site 
 
 # User settings
-username: Lorem Ipsum
-user_description: Anon Developer at Lorem Ipsum Dolor
-user_title: Anon Developer
+username: OneByte
+user_description: iOS Developer At WiFiTech
+user_title: iOS Developer
 email: anon@anon.com
-twitter_username: lorem_ipsum
-github_username:  lorem_ipsum
-gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+twitter_username: OneByte
+github_username:  OneByte
+gplus_username:  OneByte
+disqus_username: OneByte
 
 # Build settings
 markdown: kramdown
