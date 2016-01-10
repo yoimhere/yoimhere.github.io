@@ -4,14 +4,14 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://yoimhere.github.io" # the base hostname & protocol for your site 
 
 # User settings
-username: yo_imhere
+username: yoimhere
 user_description: iOS Developer At WiFiTech
 user_title: iOS Developer
 email: yo_imhere@163.com
-twitter_username: yo_imhere
-github_username:  yo_imhere
-gplus_username:  yo_imhere
-disqus_username: yo_imhere
+twitter_username: yoimhere
+github_username:  yoimhere
+gplus_username:  yoimhere
+disqus_username: yoimhere
 
 # Build settings
 markdown: kramdown
