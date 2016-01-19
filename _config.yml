@@ -31,7 +31,7 @@ compress_html:
 links:
   - title: 首页
     url: /
-  - title: 系列
+  - title: 分类
     url: /series
   - title: 文章
     url: /tags
