@@ -1,42 +1,6 @@
-# Site settings
-description: A blog about lorem ipsum dolor sit amet
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yoimhere.github.io" # the base hostname & protocol for your site 
+permalink: /:title
 
-# User settings
-username: yoimhere
-user_description: iOS Developer At WiFiTech
-user_title: iOS Developer
-email: yo_imhere@163.com
-twitter_username: yoimhere
-github_username:  yoimhere
-gplus_username:  yoimhere
-disqus_username: yoimhere
-
-# Build settings
-markdown: kramdown
-highlighter: pygments
-permalink: /:title/
-
-
-# html minify
-compress_html:
-  clippings: all
-  comments: all
-  endings: []
-  profile: false
-
-# Links to include in menu navigation
-# For external links add external: true
-links:
-  - title: 首页
-    url: /
-  - title: 分类
-    url: /series
-  - title: 文章
-    url: /tags
-  - title: 关于我
-    url: /about
-
-# exclude my node related stuff
-exclude: ['package.json', 'src', 'node_modules']
+title: BeiYuu.com
+url: http://beiyuu.com
+feed: /atom.xml
+author_info: <a href="http://beiyuu.com/">BeiYuu</a>
