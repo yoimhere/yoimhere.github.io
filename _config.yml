@@ -10,19 +10,17 @@ baseurl:
 
 # pagination
 paginate: 20
+gems: [jekyll-paginate]
 
-# Markdown Processors
-markdown: redcarpet
+# kramdown Processors
+kramdowns: redcarpet
 redcarpet:
   extensions:
-    - hard_wrap
-    - no_intra_emphasis
-    - autolink
-    - strikethrough
-    - tables
-    - lax_spacing
-    - with_toc_data
-    
+        - fenced_code_blocks
+        - no_intra_emphasis
+        - strikethrough
+        - autolink
+        - tables
 
 title : Jekyll Jacman
 tagline: A fresh looking and responsive theme for Jekyll
