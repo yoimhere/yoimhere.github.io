@@ -72,14 +72,14 @@ index:
   expand: true           ## default is unexpanding,so you can only see the short description of each post.
   excerpt_link: Read More  
 
-close_aside: false  #close sidebar in post page if true
+close_aside: true  #close sidebar in post page if true
 mathjax: false      #enable mathjax if true
 
 #### Author information
 author:
-  name: yitao      ## e.g. wuchong Author name
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  name: yoimhere      ## e.g. wuchong Author name
+  intro_line1:  ""    ## your introduction on the bottom of the page
+  intro_line2:  "既然选择了远方,便只顾风雨兼程."  ## the 2nd line
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
@@ -103,14 +103,13 @@ toc:
 
 #### Links
 links:
-  码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
+
 
 
 
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
-disqus_shortname:     ## e.g. wuchong   your disqus short name.
+disqus_shortname: yoimhere     ## e.g. wuchong   your disqus short name.
 
 #### Share button
 jiathis:
