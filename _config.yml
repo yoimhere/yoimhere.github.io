@@ -22,8 +22,8 @@ redcarpet:
         - autolink
         - tables
 
-title : Jekyll Jacman
-tagline: A fresh looking and responsive theme for Jekyll
+title : yoimhere
+tagline: Since far away,no matter rains.
 
 defaults:
   -
@@ -35,9 +35,9 @@ defaults:
 
 ##### Menu
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
+  主页: /
+  归档: /archives
+  关于: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -56,7 +56,7 @@ widgets:
 
 
 #### RSS 
-rss: /atom.xml ## RSS address.
+##rss: /atom.xml ## RSS address.
 
 #### Image
 imglogo:
@@ -78,8 +78,8 @@ mathjax: false      #enable mathjax if true
 #### Author information
 author:
   name: yoimhere      ## e.g. wuchong Author name
-  intro_line1:  ""    ## your introduction on the bottom of the page
-  intro_line2:  "既然选择了远方,便只顾风雨兼程."  ## the 2nd line
+  intro_line1:  "I'm an iOS developer in WiFiBanLv"    ## your introduction on the bottom of the page
+  intro_line2:  "Sense after afterwards the knowledge"  ## the 2nd line
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
@@ -102,7 +102,7 @@ toc:
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
 #### Links
-links:
+##links:
 
 
 
