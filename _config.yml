@@ -16,11 +16,13 @@ gems: [jekyll-paginate]
 kramdowns: redcarpet
 redcarpet:
   extensions:
-        - fenced_code_blocks
-        - no_intra_emphasis
-        - strikethrough
-        - autolink
-        - tables
+    - hard_wrap
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - tables
+    - lax_spacing
+    - with_toc_data
 
 title : yoimhere
 tagline: Since far away,no matter rains.
