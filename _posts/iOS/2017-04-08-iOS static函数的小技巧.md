@@ -51,7 +51,7 @@ static void kHandleInputBuffer (
 
 ```
 1if ([self    respondsToSelector:@selector(handlerSomeThing)]) {
-   [self performSelector:@selector(handlerSomeThing)]
+         [self performSelector:@selector(handlerSomeThing)]
     }
 ``` 
 
@@ -75,16 +75,17 @@ static void kHandleInputBuffer (
         ZJAudioManager *audioManager = (__bridge ZJAudioManager *) client;
         [audioManager handlerSomeThing]; //搞定收工
     }
+    
     - (void)start
      {
-	       AudioQueueNewInput(&.mDataFormat,
-	                      kHandleInputBuffer,
-	                      (__bridge void *)(self),   
-	                      NULL, 
-	                      NULL, 
-	                      0, 
-	                     &mQueue);
-	   }
+           AudioQueueNewInput(&.mDataFormat,
+                          kHandleInputBuffer,
+                          (__bridge void *)(self),
+                          NULL,
+                          NULL,
+                          0,
+                         &mQueue);
+      }
 	   
 	//未暴露给外部
     - (void)handlerSomeThing
@@ -93,6 +94,4 @@ static void kHandleInputBuffer (
      }
 @end
 ```
-
-
 
