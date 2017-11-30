@@ -49,7 +49,8 @@ static void kHandleInputBuffer (
 
 1.使用performSelector
 
-```  if ([self    respondsToSelector:@selector(handlerSomeThing)]) {   
+```
+if ([self    respondsToSelector:@selector(handlerSomeThing)]) {
    [self performSelector:@selector(handlerSomeThing)]
     }
 ``` 
